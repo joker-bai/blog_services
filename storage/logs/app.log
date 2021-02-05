@@ -1,0 +1,18 @@
+2021/02/03 15:30:25 {"callers":["D:/dev/src/code.coolops.cn/blog_services/main.go: 28 main.init.0"],"level":"error","message":"app.BindAndValid errs: State必须是[0 1]中的一个","time":1612337425880934100}
+2021/02/03 17:40:06 {"callers":["D:/dev/src/code.coolops.cn/blog_services/main.go: 28 main.init.0"],"level":"error","message":"svc.GetTagList err:Error 1054: Unknown column 'id_del' in 'where clause'","time":1612345206871535900}
+2021/02/03 17:43:12 {"callers":["D:/dev/src/code.coolops.cn/blog_services/main.go: 28 main.init.0"],"level":"error","message":"svc.GetTagList err:Error 1054: Unknown column 'id_del' in 'where clause'","time":1612345392807127300}
+2021/02/03 17:43:23 {"callers":["D:/dev/src/code.coolops.cn/blog_services/main.go: 28 main.init.0"],"level":"error","message":"svc.GetTagList err:Error 1054: Unknown column 'id_del' in 'where clause'","time":1612345403252451300}
+2021/02/03 17:44:08 {"callers":["D:/dev/src/code.coolops.cn/blog_services/main.go: 28 main.init.0"],"level":"error","message":"svc.GetTagList err:sql: expected 1 arguments, got 2","time":1612345448410708300}
+2021/02/03 17:48:36 {"callers":["D:/dev/src/code.coolops.cn/blog_services/main.go: 28 main.init.0"],"level":"error","message":"app.BindAndValid errs: ID为必填字段,ModifiedBy为必填字段","time":1612345716961013200}
+2021/02/03 17:48:45 {"callers":["D:/dev/src/code.coolops.cn/blog_services/main.go: 28 main.init.0"],"level":"error","message":"app.BindAndValid errs: ID为必填字段,ModifiedBy为必填字段","time":1612345725929406600}
+2021/02/03 17:52:32 {"callers":["D:/dev/src/code.coolops.cn/blog_services/main.go: 28 main.init.0"],"level":"error","message":"app.BindAndValid errs: ID为必填字段","time":1612345952219481700}
+2021/02/04 14:18:28 {"callers":["D:/dev/src/code.coolops.cn/blog_services/main.go: 28 main.init.0"],"level":"error","message":"app.BindAndValid err: AppKey为必填字段,AppSecret为必填字段","time":1612419508496828300}
+2021/02/04 14:21:12 {"callers":["D:/dev/src/code.coolops.cn/blog_services/main.go: 28 main.init.0"],"level":"error","message":"app.BindAndValid err: AppKey为必填字段,AppSecret为必填字段","time":1612419672498479600}
+2021/02/04 14:22:52 {"callers":["D:/dev/src/code.coolops.cn/blog_services/main.go: 28 main.init.0"],"level":"error","message":"app.BindAndValid err: AppKey为必填字段,AppSecret为必填字段","time":1612419772395376300}
+2021/02/05 10:53:03 {"callers":["D:/dev/src/code.coolops.cn/blog_services/main.go: 41 main.init.0"],"level":"info","message":"服务器启动成功，监听：","time":1612493583567969700}
+2021/02/05 10:55:06 {"callers":["D:/dev/src/code.coolops.cn/blog_services/main.go: 41 main.init.0"],"level":"info","message":"服务器启动成功，监听：","time":1612493706642377800}
+2021/02/05 10:58:05 {"callers":["D:/dev/src/code.coolops.cn/blog_services/main.go: 41 main.init.0"],"level":"info","message":"服务器启动成功，监听：","time":1612493885482229400}
+2021/02/05 15:16:53 {"callers":["D:/dev/src/code.coolops.cn/blog_services/main.go: 45 main.init.0"],"level":"error","message":"svc.TagCreate err: 已经存在","time":1612509413670128100}
+2021/02/05 15:21:26 {"callers":["D:/dev/src/code.coolops.cn/blog_services/main.go: 45 main.init.0"],"level":"error","message":"svc.TagCreate err: 错误码: 201006，错误信息: 标签已经存在","time":1612509686533801800}
+2021/02/05 15:21:37 {"callers":["D:/dev/src/code.coolops.cn/blog_services/main.go: 45 main.init.0"],"level":"error","message":"svc.TagCreate err: 错误码: 201006，错误信息: 标签已经存在","time":1612509697518909700}
+2021/02/05 15:25:31 {"callers":["D:/dev/src/code.coolops.cn/blog_services/main.go: 45 main.init.0"],"level":"error","message":"svc.TagCreate err: 错误码: 201006，错误信息: 标签已经存在","time":1612509931311904800}

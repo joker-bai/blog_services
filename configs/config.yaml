@@ -1,0 +1,73 @@
+# 服务配置
+Server:
+  # 运行模式
+  RunMode: debug
+  # 服务端口
+  HttpPort: 8080
+  # 读取超时时间
+  ReadTimeout: 60
+  # 写入超时时间
+  WriteTimeout: 60
+# 应用配置
+App:
+  # 默认页面大小
+  DefaultPageSize: 10
+  # 最大页面
+  MaxPageSize: 100
+  # 日志保存路径
+  LogSavePath: storage/logs
+  # 日志名称
+  LogFileName: app
+  # 日志后缀
+  LogFileExt: .log
+  # 图片上传配置
+  UploadSavePath: stroage/uploads
+  UploadServerUri: http://127.0.0.1:8080/static
+  UploadImageMaxSize: 5 #MB
+  UploadImageAllowExts:
+    - .jpg
+    - .png
+    - .jpeg
+# 数据库配置
+Database:
+  # 数据库类型
+  DBType: mysql
+  # 用户名
+  Username: blog
+  # 密码
+  Password: 1qaz@WSX
+  # 主机
+  Host: "172.17.100.158:3306"
+  # 数据库名
+  DBName: blog_service
+  # 表前缀
+  TablePrefix: blog_
+  # 字符集
+  Charset: utf8
+  # 解析
+  ParseTime: True
+  # idle时间
+  MaxIdleTime: 10
+  # 最大连接数
+  MaxOpenConn: 30
+
+# 认证
+JWT:
+  Secret: mysecret
+  Issuer: blog_service
+  Expire: 7200
+
+# 邮件服务
+Email:
+  Host: smtp.163.com
+  Port: 465
+  UserName: baidjay@163.com
+  Password: Dandy9989859
+  IsSSL: true
+  From: baidjay@163.com
+  To:
+    - coolops@163.com
+
+# 中间件配置
+Middleware:
+  DefaultContextTimeout: 60
