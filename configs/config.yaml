@@ -61,12 +61,12 @@ JWT:
 Email:
   Host: smtp.163.com
   Port: 465
-  UserName: baidjay@163.com
-  Password: Dandy9989859
+  UserName: xxxx@163.com
+  Password: xxxxx
   IsSSL: true
-  From: baidjay@163.com
+  From: xxxxx@163.com
   To:
-    - coolops@163.com
+    - xxxx@163.com
 
 # 中间件配置
 Middleware:
