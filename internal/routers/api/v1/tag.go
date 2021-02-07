@@ -76,8 +76,8 @@ func (t Tag) List(ctx *gin.Context) {
 func (t Tag) Create(ctx *gin.Context) {
 	param := service.TagCreateRequest{}
 	response := app.NewResponse(ctx)
-	valied, errors := app.BindAndValid(ctx, &param)
-	if !valied {
+	valid, errors := app.BindAndValid(ctx, &param)
+	if !valid {
 		global.Logger.ErrorF("app.BindAndValid errs: %v", errors)
 		errRsp := errcode.InvalidParams.WithDetails(errors.Errors()...)
 		response.ToErrorResponse(errRsp)

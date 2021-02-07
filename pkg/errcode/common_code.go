@@ -22,4 +22,12 @@ var (
 
 	// 文件上传错误码
 	ErrorUploadFileFail = NewError(203001, "上传文件失败")
+
+	// 文章错误码
+	ErrorListArticleFail    = NewError(301001, "获取文章列表失败")
+	ErrorCreateArticleFail  = NewError(301002, "创建文章失败")
+	ErrorUpdateArticleFail  = NewError(301003, "更新文章失败")
+	ErrorDeleteArticleFail  = NewError(301004, "删除文章失败")
+	ErrorCountArticleFail   = NewError(301005, "统计文章失败")
+	ErrorArticleIsExistFail = NewError(301006, "创建文章失败,标签已经存在")
 )

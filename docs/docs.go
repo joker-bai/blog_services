@@ -58,18 +58,6 @@ var doc = `{
                         "description": "状态",
                         "name": "state",
                         "in": "query"
-                    },
-                    {
-                        "type": "integer",
-                        "description": "页码",
-                        "name": "page",
-                        "in": "query"
-                    },
-                    {
-                        "type": "integer",
-                        "description": "每页数量",
-                        "name": "page_size",
-                        "in": "query"
                     }
                 ],
                 "responses": {

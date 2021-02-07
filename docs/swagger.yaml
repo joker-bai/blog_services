@@ -94,14 +94,6 @@ paths:
         in: query
         name: state
         type: integer
-      - description: 页码
-        in: query
-        name: page
-        type: integer
-      - description: 每页数量
-        in: query
-        name: page_size
-        type: integer
       produces:
       - application/json
       responses:
